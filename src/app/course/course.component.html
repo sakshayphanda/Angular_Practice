@@ -1,7 +1,13 @@
+<div class ="top">
+
 <p>
   {{course.title | uppercase }} <br>
   {{course.price | currency :'INR' }}<br>
   {{course.date | date :'shortDate'}}
 </p>
 
-<img src ="{{srcTitle}}"/>
+<img src ="{{srcTitle}}"/> <br>
+
+<button class="btn btn-primary" [class.active] ="isActive" (click)="onSave($event)" >Save</button>
+
+</div>

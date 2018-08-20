@@ -13,6 +13,14 @@ export class CourseComponent implements OnInit {
     date : new Date(2018,2,8)
   }
 
+
+  onSave($event)
+  {
+    console.log("Button is clicked",$event);
+  }
+  isActive=true;
+
+
   srcTitle ="http://lorempixel.com/400/200/sports/Dummy-Text" //{{}} this is an example of using property binding 
   constructor() { }
 
