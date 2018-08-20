@@ -18,8 +18,13 @@ export class CourseComponent implements OnInit {
   {
     console.log("Button is clicked",$event);
   }
-  isActive=true;
 
+  onKeyUp(email)
+  {
+    console.log(email);
+    
+  }
+  isActive=true;
 
   srcTitle ="http://lorempixel.com/400/200/sports/Dummy-Text" //{{}} this is an example of using property binding 
   constructor() { }

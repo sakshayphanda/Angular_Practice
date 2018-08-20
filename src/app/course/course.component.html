@@ -10,4 +10,8 @@
 
 <button class="btn btn-primary" [class.active] ="isActive" (click)="onSave($event)" >Save</button>
 
-</div>
+<input #email (keyup.enter)="onKeyUp(email.value)"/>
+
+<input [(ngModel)]="email1"/>
+<p>{{email1}}</p>
+</div> 
