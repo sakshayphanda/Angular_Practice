@@ -9,8 +9,11 @@ export class CourseComponent implements OnInit {
 
   course ={
     title:"hi this is sakshay",
-    name : 'sak'
+    price : 2.543,
+    date : new Date(2018,2,8)
   }
+
+  srcTitle ="http://lorempixel.com/400/200/sports/Dummy-Text" //{{}} this is an example of using property binding 
   constructor() { }
 
   ngOnInit() {
