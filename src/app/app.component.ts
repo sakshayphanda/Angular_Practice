@@ -13,4 +13,9 @@ export class AppComponent {
     isFavorite :true,
     name :'Saksh'
   }
+
+  onFavoriteChange()
+  {
+    console.log("Favorite changed");
+  }
 }

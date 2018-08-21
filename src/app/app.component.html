@@ -3,4 +3,4 @@
     Welcome {{ title }}! 
   </h1>
   <course></course>
-  <favorite [isFavorite]="data.isFavorite"></favorite>
+  <favorite [isFavorite]="data.isFavorite" (change)="onFavoriteChange()"></favorite>
