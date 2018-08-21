@@ -4,12 +4,14 @@ import{ FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { PanelComponentComponent } from './panel-component/panel-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
-    FavoriteComponent
+    FavoriteComponent,
+    PanelComponentComponent
   ],
   imports: [
     BrowserModule,

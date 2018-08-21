@@ -2,5 +2,18 @@
   <h1 style="margin-top: 10px;">
     Welcome {{ title }}! 
   </h1>
+  <bootstrap-panel>
+    <div class="heading">
+      Heading
+    </div>
+    <div class="body">
+      <h1>Body</h1>
+      <ol>
+        <li>ABC</li>
+        <li>Cd</li>
+        <li>gdgC</li>
+      </ol>
+    </div>
+  </bootstrap-panel>
   <course></course>
   <favorite [isFavorite]="data.isFavorite" (change)="onFavoriteChange()"></favorite>
