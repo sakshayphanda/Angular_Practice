@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sakshay';
+  isFavorite :boolean;
+  name:string;
+  data = {
+    isFavorite :true,
+    name :'Saksh'
+  }
 }
