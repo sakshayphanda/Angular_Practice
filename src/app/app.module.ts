@@ -6,6 +6,7 @@ import { CourseComponent } from './course/course.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { PanelComponentComponent } from './panel-component/panel-component.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { NgForComponent } from './ng-for/ng-for.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { TabsComponent } from './tabs/tabs.component';
     CourseComponent,
     FavoriteComponent,
     PanelComponentComponent,
-    TabsComponent
+    TabsComponent,
+    NgForComponent
   ],
   imports: [
     BrowserModule,

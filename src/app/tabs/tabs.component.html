@@ -1,11 +1,11 @@
-<ul class="nav nav-pills" style="width:max-content">
+<ul class="nav nav-pills" style="width:max-content;margin-left:50px ">
   <li [class.active]="viewMode=='map'" style="width:200px"><a (click)="viewMode='map'">Map</a>
   </li>
   <li [class.active]="viewMode=='list'" style="width:200px"><a (click)="viewMode='list'">List</a>
   </li>
 </ul>
 
-<div [ngSwitch] ="viewMode">
+<div [ngSwitch] ="viewMode" style="margin:50px">
   <div *ngSwitchCase="'map'">
     Map view is selected
   </div>
