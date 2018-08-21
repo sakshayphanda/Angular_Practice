@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { PanelComponentComponent } from './panel-component/panel-component.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
     FavoriteComponent,
-    PanelComponentComponent
+    PanelComponentComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
